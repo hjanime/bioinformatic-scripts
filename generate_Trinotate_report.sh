@@ -1,12 +1,12 @@
 #!/bin/bash
 
-### Takes the output of the auto-Trinotate.sh script (i.e., Trinity assembled transcriptome annotated via the Trinotate pipeline) and produces
-### a tab-delimited report that can be opened in Excel or worked with from the CLI
-### This script is meant to be run in a directory containing at least one *.tar.gz file from the auto-Trinotate.sh script
-### $PATH for executables and DBs used by this script are hardcoded to The Molette Lab server SkyNet, so modify those accordingly to your situation
-### Written November 22nd, 2013 by S.R. Santos, Department of Biological Sciences, Auburn University
+## Takes the output of the auto-Trinotate.sh script (i.e., Trinity assembled transcriptome annotated via the Trinotate pipeline) and produces
+## a tab-delimited report that can be opened in Excel or worked with from the CLI
+## This script is meant to be run in a directory containing at least one *.tar.gz file from the auto-Trinotate.sh script
+## $PATH for executables and DBs used by this script are hardcoded to The Molette Lab server SkyNet, so modify those accordingly to your situation
+## Written November 22nd, 2013 by S.R. Santos, Department of Biological Sciences, Auburn University
 
-### Keep bash shell from globbing unless explicitly told to
+## Keep bash shell from globbing unless explicitly told to
 shopt -s nullglob
 
 ### Create some variables for use later

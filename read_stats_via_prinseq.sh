@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### This script should be easy to follow below
+
 READS1=$1
 READS2=$2
 ANALYZE=`which prinseq-lite.pl`

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### This script is ugly and should be rewritten
+
 REPORT=$2
 
 if [ "$1" = BX-UNIPROT-ALL ]; then
