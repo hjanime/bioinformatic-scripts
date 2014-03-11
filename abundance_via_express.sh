@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#### PRINT USAGE DIRECTIONS IF NO/INCORRECT ARGUMENTS ARE PROVIDED ####
+### PRINT USAGE DIRECTIONS IF NO/INCORRECT ARGUMENTS ARE PROVIDED ####
 if [ ! $# == 3 ]; then
   echo "Usage: $0 number_processors READS.fq transcriptome.fasta"
   exit

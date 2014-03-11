@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 ## WORKING INSTALLS OF BWA 0.7.7-r441, SAMTOOLS 0.1.19 AND BOWTIE2-2.2.0 (PLUS THEIR SUPPLEMENTARY TOOLS/SCRIPTS) ARE NEEDED BY THIS SCRIPT
 
 ## Written by S.R. Santos, Department of Biological Sciences, Auburn University, Auburn, AL 36849 ###
@@ -10,6 +11,18 @@
 ## Mar 10th, 2014	v1.3: code rewite of particular sections
 
 ## SET UP THE WORKING ENVIRONMENT ###
+=======
+### WORKING INSTALLS OF BWA 0.6.2, SAMTOOLS 0.1.18 AND BOWTIE2-2.0.0-beta7 (PLUS THEIR SUPPLEMENTARY TOOLS/SCRIPTS) ARE NEEDED BY THIS SCRIPT
+
+### Written by S.R. Santos, Department of Biological Sciences, Auburn University, Auburn, AL 36849 ###
+### CHANGE LOG: 										   ###
+### Sept 29th, 2012	v1.0: initial creation							   ###
+### Oct 6th, 2012	v1.1: add options for exporting consensus sequence(s) from bwa in fasta	   ###
+### Oct 8th, 2012	v1.2: add options for mapping using bowtie2
+### Mar 10th, 2014	v1.3: code rewite of particular sections
+
+### SET UP THE WORKING ENVIRONMENT ###
+>>>>>>> refs/remotes/origin/master
 
 export PATH=${PATH}
 
