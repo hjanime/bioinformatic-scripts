@@ -1,13 +1,13 @@
 #!/bin/bash
 
-### Automated the annotation of Trinity transcriptome assemblies via the Trinotate pipeline
-### This script is meant to be run in a directory containing at least one Trinity assembly
-### Since the for loop will operate on any file ending in .fasta, best to run it in a directory with just the Trinity assemblies you are interested in annotating
-### $PATH for executables and DBs used by this script are hardcoded to The Molette Lab server SkyNet, so modify those accordingly to your situation
-### printf statements in the for loop append start times of each step to a log in the parent directory where the script was executed
-### Written November 17th, 2013 by S.R. Santos, Department of Biological Sciences, Auburn University
+## Automated the annotation of Trinity transcriptome assemblies via the Trinotate pipeline
+## This script is meant to be run in a directory containing at least one Trinity assembly
+## Since the for loop will operate on any file ending in .fasta, best to run it in a directory with just the Trinity assemblies you are interested in annotating
+## $PATH for executables and DBs used by this script are hardcoded to The Molette Lab server SkyNet, so modify those accordingly to your situation
+## printf statements in the for loop append start times of each step to a log in the parent directory where the script was executed
+## Written November 17th, 2013 by S.R. Santos, Department of Biological Sciences, Auburn University
 
-### Keep bash shell from globbing unless explicitly told to
+## Keep bash shell from globbing unless explicitly told to
 shopt -s nullglob
 
 ### Create variables for Trinity installation and other binaries
